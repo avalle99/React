@@ -37,7 +37,6 @@ function App() {
             description={con.description}
           />
         ))}
-        ;
       </ul>
     </div>
   );

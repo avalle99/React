@@ -4,7 +4,7 @@ import ExpenseForm from "./ExpenseForm";
 const NewExpense = function () {
   return (
     <div className="new-expense">
-      <ExpenseForm></ExpenseForm>
+      <ExpenseForm />
     </div>
   );
 };

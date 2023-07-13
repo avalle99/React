@@ -25,7 +25,9 @@ function App() {
       return;
     }
 
-    dispatch(sendCartData(cart));
+    if (cart.changed) {
+      dispatch(sendCartData(cart));
+    }
   }, [cart, dispatch]); //Mismo useEffect de abajo. Solo que no quise borrarlo ya que es otro metodo para hacer async code con Redux
 
   // useEffect(() => {
